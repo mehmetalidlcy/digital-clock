@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(to right, #000428, #004e92); /* Gece mavisi bir geçiş */
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  #clock {
+    text-align: center;
+    width: 50%;
+  }
+  
+  #clock h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+  }
+  
+  .clock-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .clock-items {
+    width: 30%;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    margin-right: 3%;
+    font-size: 70px;
+    font-family: "Anton", sans-serif;
+    text-align: center;
+  }
+  .clock-items p {
+    transition: all 0.3s ease-in-out;
+  }
+  .clock-items p {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  
